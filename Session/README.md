@@ -25,6 +25,9 @@ helm install mongodb bitnami/mongodb \
     --set image.repository=arm64v8/mongo \
     --set image.tag=latest \
     --set persistence.mountPath=/data/db
+helm install mongodb bitnami/mongodb \
+    --set image.tag=latest \
+    --set persistence.mountPath=/data/db
 ```
 
 ```console
