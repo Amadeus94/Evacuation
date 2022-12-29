@@ -1,0 +1,8 @@
+terraform commands
+
+/Session
+terraform -chdir=Session/terraform init
+
+ ... can also just go into the folder to run it 
+terraform -chdir=Session/terraform plan
+terraform -chdir=Session/terraform apply

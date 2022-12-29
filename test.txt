@@ -1,0 +1,11 @@
+ every pod gets its own ip address from 10.*, that is usable only within the cluster.
+
+
+ port-forward feature of kubectl simply tunnels the traffic from a specified port at your local host machine to the specified port on the specified pod.
+
+
+
+ kubectl port-forward forwards connections to a local port to a port on a pod.
+
+
+ kubectl port-forward deployment/redis-master 6379:6379 
