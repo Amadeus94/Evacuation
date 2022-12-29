@@ -11,8 +11,8 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - PORT=value
-      - NODE_ENV=value
-      - MONGO_DB_CONNECTION_STRING=value
-      - MONGO_DB_NAME=value
-      - REDIS_URI=value
+      - PORT=3000
+      - NODE_ENV=development
+      - MONGO_DB_CONNECTION_STRING=mongodb+srv://group1337:G4CCcFMYAkVa5s1s@course-cloud-cluster.eo0h4rl.mongodb.net/?retryWrites=true&w=majority
+      - MONGO_DB_NAME=course-cloud-cluster
+      - REDIS_URI=redis://default:GOV34jpW19yv0b5PTWvtl6WhRywKfJUj@redis-17625.c242.eu-west-1-2.ec2.cloud.redislabs.com:17625
